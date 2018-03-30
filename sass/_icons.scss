@@ -1,0 +1,63 @@
+.icon-star{
+  background: url('../img/icons/star.png');
+  width: 29px;
+  height: 30px;
+  display: inline-block;
+}
+
+.icon-star-over {
+  background: url('../img/icons/star-over.png');
+  width: 23px;
+  height: 25px;
+  display: inline-block;
+}
+
+
+.icon-social{
+  display: inline-block;
+}
+
+.icon-shared{
+  a{
+    background-color: $verde;
+    padding: 7px 8px;
+  }
+}
+
+.icon-facebook{
+  a{
+    background-color: $azul-fb;
+    padding: 7px 13px;
+  }
+}
+
+.icon-twitter{
+  a{
+    background-color: $azul-twt;
+    padding: 7px 9px;
+  }
+}
+
+.icon-google-plus{
+  a{
+    background-color: $vermelho;
+    padding: 7px 9px;
+  }
+}
+
+.icon-pinterest{
+  a{
+    background-color: $marrom;
+    padding: 7px 9px;
+  }
+}
+
+.icon-footer-seguro{
+
+}
+.icon-footer-google{
+  padding-top: 8px;
+}
+.icon-footer-ebit{
+  padding-top: 2px;
+}

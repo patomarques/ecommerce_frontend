@@ -1,0 +1,37 @@
+//responsive variables
+$screen-xs-min: 450px;
+$screen-xs-max: 450px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+/* colors */
+
+$branco: #FFFFFF;
+$preto: #000000;
+
+$cinza-eb: #ebebeb;
+$cinza: #727272;
+$cinza-claro: #d6d6d6;
+$cinza-superclaro: #fafafa;
+$cinza-21: #212121;
+
+$azul: #007ab3;
+$azul-escuro: #01628f;
+
+$azul-claro: #66afd1;
+
+/* Social Colors */
+$verde: #19a21a;
+$azul-fb: #395797;
+$azul-twt: #00afe5;
+$marrom: #403d3d;
+$vermelho: #e93636;
+
+.bg-azul{
+  background-color: $azul;
+}
+
+.bg-gray{
+  background-color: $cinza-eb;
+}

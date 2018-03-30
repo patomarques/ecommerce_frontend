@@ -1,0 +1,56 @@
+.search{
+  padding: 10px 20px;
+  width: 90%;
+  border: 2px solid $cinza-claro;
+  display: inline-block;
+  border-radius: 0 !important;
+  text-shadow: none !important;
+  outline: none;
+  @extend .trans;
+
+  &:focus{
+    border: 2px solid $azul;
+  }
+}
+
+.btn-ok{
+  background-color: $azul;
+  color: $branco;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid $azul;
+  display: inline-block;
+  outline: none;
+  @extend .trans;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.btn-all-categories{
+  color: $branco;
+  padding: 25px 40px 25px 20px;
+  background-color: $azul-escuro;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none !important;
+
+  &:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    @include carret(4px, $branco);
+    margin: 7px 0 0 25px;
+  }
+
+  &:hover{
+    opacity: 0.8;
+    color: $branco;
+    background-color: $azul-claro;
+  }
+
+}

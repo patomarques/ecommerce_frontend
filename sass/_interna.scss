@@ -1,0 +1,364 @@
+.thumbnail-product{
+  width: 100%;
+  display: block;
+
+
+  img{
+    display: block;
+
+  }
+}
+
+.list-thumb-imgs{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li{
+    display: inline-block;
+    width: 20%;
+  }
+}
+
+.list-info{
+  list-style: none;
+  margin: 0 !important;
+  width: 49%;
+  display: inline-block;
+  padding: 0 !important;
+  top: 0;
+
+  li{
+    font-size: 18px;
+    font-family: $roboto;
+    margin-bottom: 20px;
+
+    &:before{
+      margin-right: 10px;
+    }
+
+    span{
+      font-weight: 500;
+    }
+
+    .text{
+      display: inline-block;
+
+      .label-aluguel{
+        display: block;
+        font-size: 14px;
+        position: absolute;
+        margin-top: -18px;
+        color: $preto;
+      }
+      .total{
+        display: block;
+      }
+    }
+
+    &.icon-info-casa{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/01-casa.png');
+        width: 40px;
+        height: 39px;
+        margin-bottom: -10px;
+      }
+    }
+
+    &.icon-info-aluguel{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/02-aluguel.png');
+        width: 41px;
+        height: 34px;
+        margin-bottom: 0;
+      }
+    }
+
+    &.icon-info-codigo{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/03-codigo.png');
+        width: 39px;
+        height: 27px;
+        margin-bottom: -8px;
+      }
+    }
+
+    &.icon-info-metros{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/04-grid.png');
+        width: 33px;
+        height: 35px;
+        margin-bottom: -11px;
+      }
+    }
+
+    &.icon-info-quartos{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/05-quartos.png');
+        width: 39px;
+        height: 25px;
+        margin-bottom: -7px;
+      }
+    }
+
+    &.icon-info-suite{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/06-suite.png');
+        width: 34px;
+        height: 34px;
+        margin: 0 17px -4px 0;
+      }
+    }
+
+    &.icon-info-banheiros{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/07-chuveiro.png');
+        width: 32px;
+        height: 32px;
+        margin: 0 21px -6px 0;
+      }
+    }
+
+    &.icon-info-piscina{
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/08-piscina.png');
+        width: 38px;
+        height: 41px;
+        margin: 0 17px -15px 0;
+      }
+    }
+
+    &.icon-info-garagem{
+      padding-top: 12px;
+      &:before{
+        content: '';
+        display: inline-block;
+        background: url('../img/icons/info/09-garagem.png');
+        width: 35px;
+        height: 28px;
+        margin: 0 22px -8px 0;
+      }
+    }
+
+  }
+}
+
+.fotorama__stage{
+  margin-bottom: 10px;
+}
+
+.info-details{
+
+  &:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: $cinza-eb;
+    position: relative;
+    display: block;
+    margin: 15px 0;
+  }
+
+}
+
+.list-contact-advertiser{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li{
+    display: inline-block;
+    width: 49%;
+
+    .telefone{
+      background: url('../img/icons/tel.png');
+      width: 16px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: -3px;
+    }
+
+    .email{
+      background: url('../img/icons/email.png');
+      width: 20px;
+      height: 15px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: -3px;
+    }
+
+    .text{
+      display: inline-block;
+      font-family: $roboto;
+      font-size: 16px !important;
+    }
+  }
+
+}
+
+.list-stars{
+  margin-top: 15px;
+  padding: 9px 0 0 0 !important;
+  position: relative;
+  li{
+    span{
+      margin-left: -10px;
+      position: relative;
+      &:nth-child(1){
+        margin-left: 0;
+      }
+    }
+
+    .icon-star{
+      margin-bottom: -2px;
+    }
+
+    &:last-child{
+      &:after{
+        content: '(5)';
+        display: inline-block;
+        margin: 6px 0 0 5px;
+        float: right;
+        font-size: 17px;
+        font-family: $roboto;
+      }
+    }
+  }
+
+
+}
+
+.title-text{
+
+}
+
+.list-last-line{
+  margin: 30px 0;
+  padding: 0;
+
+  ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+}
+
+.img-security{
+  display: inline-block;
+}
+
+.img-sec1{
+  background: url("../img/icons/security/seguro.png");
+  width: 64px;
+  height: 33px;
+}
+
+.img-sec2{
+  background: url("../img/icons/security/google.png");
+  width: 89px;
+  height: 42px;
+  margin: 0 8px -8px;
+}
+
+.img-sec3{
+  background: url("../img/icons/security/ebit.png");
+  width: 67px;
+  height: 31px;
+}
+
+
+
+.list-social-shared{
+  margin: 0 0;
+
+  li{
+    display: inline-block;
+
+    a{
+      @include border-radius(5px);
+    }
+    &:nth-child(1){
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.list-security{
+  margin: 0;
+  padding: 0;
+
+  li{
+    display: inline-block;
+
+     &:nth-child(1){
+       display: block;
+
+     }
+  }
+}
+
+.youtube-content{
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+
+  iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+
+  .list-contact-advertiser{
+    li{
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min){
+
+}
+
+@media (min-width: $screen-md-min){
+
+}
+
+@media (min-width: $screen-lg-min){
+  .list-last-line{
+    ul{
+      /*width: 33%;*/
+      float: left;
+
+      &.list-social-shared{
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
