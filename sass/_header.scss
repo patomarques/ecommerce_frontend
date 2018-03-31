@@ -67,7 +67,7 @@ header{
 }
 
 .header-site{
-  padding: 30px 0;
+  padding: 40px 0 10px;
 }
 
 .cart-top{
@@ -128,10 +128,7 @@ header{
   position: absolute;
   margin-top: 10px;
   /*display: none;*/
-  -webkit-transition: all 2.5s ease;
-  -moz-transition: all 2.5s ease;
-  -o-transition: all 2.5s ease;
-  transition: all 2.5s ease;
+  @extend .trans;
   background-color: $branco;
   z-index: 100;
   width: 100%;
@@ -272,6 +269,7 @@ header{
 }
 nav.top-menu{
   position: relative;
+  margin-top: 10px;
 }
 
 .navTrigger {
@@ -414,7 +412,10 @@ nav.top-menu{
 
 @media (max-width: $screen-xs-max) {
   #cartDetails{
-    max-width: 320px;
+    max-width: 290px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
   }
   .logo{
     text-align: center;
@@ -499,13 +500,27 @@ nav.top-menu{
 
     li{
       border: none !important;
+
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3){
+        width: 32%;
+        display: inline-block;
+        font-size: 10px;
+      }
+
+      &:nth-child(4),
+      &:nth-child(5){
+        width: 49%;
+        display: inline-block;
+      }
     }
   }
 
   #formSearch{
     text-align: center;
     display: block;
-    margin: 0 auto 30px ;
+    margin: 0 auto 30px;
     .search{
       width: auto;
     }
@@ -516,8 +531,8 @@ nav.top-menu{
     padding: 0;
     margin-right: -20px;
     &:before{
-      left: 0;
-      margin: 0 0 0 35px !important;
+      left: 15%;
+      margin: 0 !important;
     }
   }
 
@@ -541,22 +556,14 @@ nav.top-menu{
       }
     }
   }
-
-  .info-details{
-    .title-medium{
-      text-align: center;
-      margin: 10px auto 30px;
-    }
-
-    .list-info{
-      width: 100%;
-    }
-  }
-
 }
 
 @media (min-width: $screen-md-min){
-
+  .cart-top{
+    &:before{
+      left: 25%;
+    }
+  }
 }
 
 @media (min-width: $screen-lg-min){
@@ -565,19 +572,68 @@ nav.top-menu{
     li{
       display: inline-block;
 
+
+
       &:nth-child(1),
-      &:nth-child(2){
-        margin-right: 20px;
+      &:nth-child(2),
+      &:nth-child(3){
+        width: 20%;
+        padding: 12px 20px;
+
+      }
+
+      &:nth-child(4),
+      &:nth-child(5){
+        width: 15%;
+        border-right: 1px solid $preto !important;
       }
 
       &:nth-child(3){
-        padding-right: 50px;
+        border-right: 1px solid $preto !important;
       }
-
     }
+  }
 
-    .btn-icon{
+  .cart-top{
+    &:before{
+      left: 5%;
+    }
+  }
 
+  .btn-all-categories{
+    width: 20%;
+    margin-bottom: 0;
+    float: left;
+  }
+
+  header{
+    width: 80%;
+    display: inline-block;
+    float: left;
+
+    .top-menu{
+      .list-menu{
+        margin-bottom: 0;
+
+        /*visibility: visible;*/
+        li.subitem-menu{
+          display: inline-block;
+          width: auto;
+          margin-top: 0;
+
+          a.item{
+            font-weight: 300;
+            padding: 10px;
+          }
+        }
+
+      }
+    }
+  }
+
+  #formSearch{
+    .search{
+      width: 90%;
     }
   }
 }

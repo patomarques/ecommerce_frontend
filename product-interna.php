@@ -10,8 +10,8 @@
             </div>
         </div>
         <div class="row marginBottom30">
-            <div class="col-sm-12 col-md-4 col-lg-5">
-                <div class="fotorama" data-nav="thumbs" data-thumbheight="70" data-thumbmargin="14" data-fit="cover" data-minheight="400">
+            <div class="col-sm-12 col-md-5 col-lg-5">
+                <div class="fotorama" data-nav="thumbs" data-thumbheight="70" data-thumbmargin="14" data-fit="cover" data-minheight="400" data-ratio="600/400">
                     <!--<img src="http://s.fotorama.io/1.jpg">
                     <img src="http://s.fotorama.io/2.jpg">-->
                     <?php for($x=1; $x < 7; $x++){ ?>
@@ -19,7 +19,7 @@
                     <?php } ?>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-7">
+            <div class="col-sm-12 col-md-7 col-lg-7">
                 <div class="info-details">
                     <h3 class="title-medium">CASA EM CONDOMINIO FECHADO, COM 3 QUARTOS, 2 SALAS, 2 BANHEIROS 150M²</h3>
 
@@ -39,7 +39,7 @@
                         <li class="icon-info-metros">
                             <span>150m²</span>
                         </li>
-                        <li><br></li>
+                        <li class="hidden-xs "><br></li>
                     </ul>
 
                     <ul class="list-info">
@@ -136,7 +136,7 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h2 class="title-underline">Vídeos</h2>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-7">
+            <div class="col-sm-12 col-md-8 col-lg-6">
                 <div class="youtube-content">
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vL38wdD0Sok?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>

@@ -1,11 +1,11 @@
 <div class="full-bar-payments">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <span class="legend">Formas de pagamento</span>
                 <img src="img/payments.png" alt="" class="img-responsive">
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <ul class="list-security-logos list-inline">
                     <li>
                         <span class="legend">Segurança</span>
@@ -26,28 +26,32 @@
 <div class="bg-gray" id="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                 <h3 class="title-footer">Atendimento</h3>
 
                 <ul class="list-info-funcionamento list-unstyled">
                     <li>
+                        <img src="img/icons/footer/clock.png" alt="">
                         <div class="text-info">
                             <p>De 7h as 20h</p>
                             <p>De segunda a sexta</p>
                         </div>
                     </li>
                     <li>
+                        <img src="img/icons/footer/phone.png" alt="">
                         <span class="text">(11) XXXXX XXXXX</span>
                     </li>
                     <li>
+                        <img src="img/icons/footer/whatsapp.png" alt="">
                         <span class="text">(11) XXXXX XXXXX</span>
                     </li>
                     <li>
+                        <img src="img/icons/footer/email.png" alt="">
                         <span class="text">contato@ecommerce.com.br</span>
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                 <h3 class="title-footer">Algumas categorias</h3>
 
                 <ul class="list-categorias list-unstyled">
@@ -60,7 +64,7 @@
                     <li><a href="#" class="link-footer">Lazer</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                 <h3 class="title-footer">Sobre a loja</h3>
 
                 <ul class="list-sobre list-unstyled">
@@ -69,7 +73,7 @@
                     <li><a href="#" class="link-footer">Politica de privacidade</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2">
                 <h3 class="title-footer">Facilidades</h3>
 
                 <ul class="list-facilidades list-unstyled">

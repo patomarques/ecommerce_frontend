@@ -40,7 +40,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="cart-top">
-                    <a href="#" class="">
+                    <a href="#" class="cart-link">
                         <!--<i class="cart-icon"></i>-->
                         <span class="text">Minhas Compras</span>
                         <span class="items">02 itens</span>
@@ -79,11 +79,11 @@
 
                     <header>
                         <nav class="top-menu">
-                            <div class="navTrigger">
+                            <div class="navTrigger hidden-lg">
                                 <i></i><i></i><i></i>
                                 <span class="menu"></span>
                             </div>
-                            <ul class="list-menu">
+                            <ul class="list-menu visible-lg">
                                 <li class="subitem-menu"><a href="#" class="item"><i class="icon-moveis"></i> Móveis</a></li>
                                 <li class="subitem-menu"><a href="#" class="item"><i class="icon-eletros"></i> Eletros</a></li>
                                 <li class="subitem-menu"><a href="#" class="item"><i class="icon-informatica"></i> Informática</a></li>

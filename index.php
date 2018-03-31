@@ -6,12 +6,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>E-Commerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="apple-touch-icon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="apple-touch-icon.ico" type="image/x-icon"/>
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">

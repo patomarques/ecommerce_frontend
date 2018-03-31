@@ -49,6 +49,26 @@ footer{
   text-align: center;
 }
 
+.list-info-funcionamento{
+  li{
+    &:nth-child(1){
+      //background: url("../img/icons/footer/clock.png");
+      //width: 21px;
+      //height: 21px;
+    }
+    &:nth-child(2){
+      /*background: url("../img/icons/footer/clock.png");*/
+
+    }
+    &:nth-child(3){
+
+    }
+    &:nth-child(4){
+
+    }
+  }
+}
+
 @media (max-width: $screen-xs-max) {
 //@media (max-width: $screen-md-min) {
   .list-last-line{
