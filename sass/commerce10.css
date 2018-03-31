@@ -664,8 +664,22 @@ footer {
   margin: 0 auto;
   text-align: center; }
 
-.list-info-funcionamento li:nth-child(2) {
-  /*background: url("../img/icons/footer/clock.png");*/ }
+.list-info-funcionamento li {
+  font-size: 16px;
+  padding: 5px 0; }
+  .list-info-funcionamento li.horario img {
+    vertical-align: top; }
+  .list-info-funcionamento li.horario .text-info {
+    line-height: 8px;
+    display: inline-block;
+    padding-left: 5px;
+    color: #000000; }
+  .list-info-funcionamento li.telefone img {
+    padding: 0 5px; }
+  .list-info-funcionamento li.whatsapp img {
+    padding: 0 3px; }
+  .list-info-funcionamento li.email img {
+    padding: 0 3px; }
 
 @media (max-width: 450px) {
   .list-last-line ul {

@@ -30,22 +30,22 @@
                 <h3 class="title-footer">Atendimento</h3>
 
                 <ul class="list-info-funcionamento list-unstyled">
-                    <li>
+                    <li class="horario">
                         <img src="img/icons/footer/clock.png" alt="">
                         <div class="text-info">
                             <p>De 7h as 20h</p>
                             <p>De segunda a sexta</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="telefone">
                         <img src="img/icons/footer/phone.png" alt="">
                         <span class="text">(11) XXXXX XXXXX</span>
                     </li>
-                    <li>
+                    <li class="whatsapp">
                         <img src="img/icons/footer/whatsapp.png" alt="">
                         <span class="text">(11) XXXXX XXXXX</span>
                     </li>
-                    <li>
+                    <li class="email">
                         <img src="img/icons/footer/email.png" alt="">
                         <span class="text">contato@ecommerce.com.br</span>
                     </li>
